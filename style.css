@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(181, 248, 214);
+}
+
+img{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+video{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+
+a {
+    color: rgb(13, 83, 16);
+}
+
+a:visited {
+    color: rgb(13, 83, 16);
+}
+
+a:hover {
+    color: red;
+    text-decoration:none;
+}  
+
+
+.opc{
+    opacity: .2;
+    position: relative;
+}
+
+
+
+/* Text Imput Styles */
+[contenteditable]:focus {
+    outline: 0px solid transparent;
+}
+
+#textInput{
+    border: 5px solid black;
+    padding: 1em;
+    position: relative; 
+}
+
+#textInput:empty::before {
+    content: "Filler Text";
+    display: block;
+    position: absolute;
+    color: lightslategray;
+    text-align: left;
+}
+#textInput:focus{
+    border: 5px solid slategray;
+}
+
+#textOutput{
+    border-bottom: 5px black dashed;
+    margin: 1em 0;
+    padding: 1em;
+}
