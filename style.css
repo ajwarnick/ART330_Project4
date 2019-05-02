@@ -31,9 +31,8 @@ a:hover {
 }  
 
 
-.opc{
-    opacity: .2;
-    position: relative;
+.none{
+   display: none;
 }
 
 
