@@ -41,6 +41,17 @@ a:hover {
 }
 
 
+.container{
+    display: grid;
+    width: 75%;
+    margin: 0 auto;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
+}
+
+
+
 
 /* Text Imput Styles */
 [contenteditable]:focus {
