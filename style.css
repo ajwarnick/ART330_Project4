@@ -16,6 +16,11 @@ video{
     max-height: 100%;
 }
 
+.centerImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 a {
     color: rgb(13, 83, 16);
