@@ -116,3 +116,11 @@ a:hover {
     margin: 1em 0;
     padding: 1em;
 }
+
+
+
+.building{
+    background-image: url("/img/daniel-kim-1500782-unsplash.jpg");
+    background-position: center;
+    background-size: contain;
+}
